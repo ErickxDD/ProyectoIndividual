@@ -5,7 +5,10 @@
     padding: 0;
     $primary-color: #FFFFFF; 
 }
-
+@font-face{
+    font-family: "lotterpaperfang";
+    src: url (lotterpaperfang);
+  }
 header {
    
     
@@ -29,7 +32,7 @@ header {
     top: 50px;
     left: 60px;
     position: relative;
-    
+    font-family: lotterpaperfang; 
 }
 nav {
     position: sticky;
@@ -68,6 +71,7 @@ article, footer, nav {
 article{
     h1, p{
         margin-bottom: 10px;
+        
     }
     @media(orientation: landscape){
         columns: 100px 2;

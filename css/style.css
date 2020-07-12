@@ -72,6 +72,8 @@ article h1, article p {
 }
 
 .container {
+  display: flex;
+  flex-flow: row wrap;
   position: relative;
   width: calc(800px - 60px);
   height: calc(300px - 60px);
@@ -83,6 +85,8 @@ article h1, article p {
 }
 
 .container .box {
+  display: flex;
+  flex-flow: row wrap;
   position: relative;
   width: calc(800px - 60px);
   height: calc(300px - 60px);
